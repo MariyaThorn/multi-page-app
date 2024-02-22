@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home, data, model, eln # import your app modules here
+from pages import home, data, model, eln # import your app modules here
 
 app = MultiApp()
 

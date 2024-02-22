@@ -25,3 +25,5 @@ def app():
     score = clf.score(X_test, Y_test)
     st.write('Accuracy:')
     st.write(score)
+if __name__ == '__main__':
+    app()
